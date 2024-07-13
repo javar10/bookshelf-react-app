@@ -1,5 +1,5 @@
 {
-  "name": "book-review-app",
+  "name": "bookshelf-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

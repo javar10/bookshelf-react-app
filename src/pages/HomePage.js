@@ -1,13 +1,17 @@
 
-import SearchBooks from "../components/SearchBooks";
+import DisplayUsersBooks from "../features/userBooks/DisplayUsersBooks";
+import Header from "../components/Header";
+import Login from "../components/Login";
+import SearchBooks from "../features/bookSearch/SearchBooks";
 
 
 const HomePage = () => {
 
     return (
         <>
-            <h1>Bookshelf</h1>
-            <h4>My Books</h4>
+            <Header />
+            <Login />
+            <DisplayUsersBooks />
             <SearchBooks />
 
         </>
