@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+.displayBookSearch {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.displayBookSearchCard {
+  max-width: 250px;
+}
